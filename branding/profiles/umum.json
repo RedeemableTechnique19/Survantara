@@ -1,0 +1,37 @@
+{
+  "projectName": "Survantara",
+  "displayName": "Survantara",
+  "shortName": "Survantara",
+  "locationLabel": "",
+  "wordmark": {
+    "prefix": "Survantara",
+    "accent": ""
+  },
+  "description": "Sistem Surveilans, Kewaspadaan Dini, dan Respons Kesehatan Masyarakat",
+  "institution": "Pengelola layanan surveilans",
+  "unit": "",
+  "purpose": "Kewaspadaan dini dan respons kesehatan masyarakat",
+  "copyrightYear": "2026",
+  "tagline": "Menghubungkan laporan dengan tindakan.",
+  "contacts": {
+    "emergency": null,
+    "information": null
+  },
+  "assets": {
+    "favicon": null,
+    "logo": null,
+    "logoAlt": "",
+    "heroImage": null,
+    "serviceAreaShapes": null
+  },
+  "map": {
+    "center": [
+      -2.5,
+      118
+    ],
+    "zoom": 5
+  },
+  "links": {
+    "w2Guide": null
+  }
+}

@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta id="themeColor" name="theme-color" content="#f5f6f8">
+  <script src="/theme.js?v=20261003-disease-page-v24"></script>
+  <meta name="description" content="{{description}}">
+  <title>{{displayName}}</title>
+  {{favicon}}
+  <link rel="stylesheet" href="/styles.css?v=20261005-branding-v1">
+  <link rel="stylesheet" href="/branding.css?v={{brandingVersion}}">
+</head>
+<body>
+  <a class="skip-link" href="#app">Lewati ke konten</a>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="#home" aria-label="{{displayName}}, halaman beranda">
+        {{wordmark}}
+      </a>
+      <div id="headerClock" class="header-clock" aria-live="off">
+        <div class="header-calendar">
+          <button id="headerCalendarButton" class="header-calendar-trigger" type="button" aria-haspopup="dialog" aria-expanded="false" aria-controls="headerCalendarPopover">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="16" rx="2"></rect><path d="M7 3v4M17 3v4M3 9h18"></path></svg>
+            <span id="headerDate">—</span>
+            <strong id="headerEpiWeek">ME —</strong>
+          </button>
+          <div id="headerCalendarPopover" class="header-calendar-popover" role="dialog" aria-modal="false" aria-labelledby="headerCalendarTitle" tabindex="-1" hidden>
+            <div class="header-calendar-toolbar">
+              <button type="button" class="calendar-nav" data-calendar-nav="-1" aria-label="Bulan sebelumnya">←</button>
+              <h2 id="headerCalendarTitle">Kalender epidemiologi</h2>
+              <button type="button" class="calendar-nav" data-calendar-nav="1" aria-label="Bulan berikutnya">→</button>
+            </div>
+            <div id="headerCalendarGrid" class="header-calendar-grid" role="grid" aria-label="Kalender dengan minggu epidemiologi"></div>
+            <div class="header-calendar-footer">
+              <p id="headerCalendarSelection">—</p>
+              <button id="headerCalendarToday" type="button" class="calendar-today">Hari ini</button>
+            </div>
+          </div>
+        </div>
+        <time id="headerTime" role="timer">— WIB</time>
+      </div>
+      <nav id="sessionNavigation" class="session-navigation" aria-label="Akun dan portal" hidden></nav>
+      <button id="themeToggle" class="theme-toggle" type="button">
+        <svg id="themeIcon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"></svg>
+        <span>Tema <strong id="themeLabel">Terang</strong></span>
+      </button>
+    </div>
+  </header>
+  <div id="workspaceShell" class="workspace-shell">
+  <aside id="workspaceNavigation" class="workspace-navigation" hidden></aside>
+  <main id="app" class="container" tabindex="-1">
+    <noscript>
+      <section class="card">
+        <h1>Aktifkan JavaScript</h1>
+        <p>Layanan ini memerlukan JavaScript untuk mengisi dan mengirim laporan. Aktifkan JavaScript pada peramban Anda, lalu muat ulang halaman.</p>
+        {{noscriptContacts}}
+      </section>
+    </noscript>
+  </main>
+  </div>
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div class="footer-main">
+        <div class="footer-identity">
+          {{logo}}
+          <div>
+            <p class="footer-title">{{displayName}}</p>
+            <p class="footer-expansion">{{description}}</p>
+          </div>
+        </div>
+        <div class="footer-context">
+          <strong>{{institution}}</strong>
+          {{unit}}
+          <small>{{purpose}}</small>
+        </div>
+        <div class="footer-links">
+          <div class="footer-contacts">
+            {{contacts}}
+          </div>
+          <a class="footer-staff" href="#staff">Akses petugas <span aria-hidden="true">→</span></a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>{{copyright}}</span>
+        <span>{{tagline}}</span>
+        <a href="#about">Tentang · Kredit pengembang</a>
+        <span>{{developerCredit}}</span>
+      </div>
+    </div>
+  </footer>
+  <script type="module" src="/app.js?v=20261005-branding-v1"></script>
+</body>
+</html>

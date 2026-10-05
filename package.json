@@ -1,0 +1,30 @@
+{
+  "name": "survantara",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "db:migrate:local": "wrangler d1 migrations apply sbm-db --local",
+    "db:migrate:remote": "wrangler d1 migrations apply sbm-db --remote",
+    "check": "tsc --noEmit && npm run check:ebs",
+    "check:ebs": "node scripts/check-ebs-coverage.mjs",
+    "test": "node scripts/regression-test.mjs",
+    "branding": "node scripts/build-branding.mjs",
+    "test:branding": "node scripts/branding-test.mjs",
+    "test:deployment": "node scripts/deployment-test.mjs",
+    "check:public": "node scripts/public-release-check.mjs"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^5.20260711.1",
+    "typescript": "^5.9.2",
+    "wrangler": "^4.147.0"
+  },
+  "description": "Surveilans dan respons kesehatan masyarakat",
+  "author": "Naufal Hilmy Amanur Qolby",
+  "license": "SEE LICENSE IN LICENSE",
+  "engines": {
+    "node": ">=22.15.0"
+  }
+}

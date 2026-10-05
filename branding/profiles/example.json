@@ -1,0 +1,45 @@
+{
+  "projectName": "Survantara",
+  "displayName": "Survantara Demo",
+  "shortName": "Demo",
+  "locationLabel": "Wilayah Demo",
+  "wordmark": {
+    "prefix": "Survantara",
+    "accent": " Demo"
+  },
+  "description": "Sistem Surveilans, Kewaspadaan Dini, dan Respons Kesehatan Masyarakat",
+  "institution": "Institusi Contoh",
+  "unit": "",
+  "purpose": "Kewaspadaan dini dan respons kesehatan masyarakat",
+  "copyrightYear": "2026",
+  "tagline": "Menghubungkan laporan dengan tindakan.",
+  "contacts": {
+    "emergency": {
+      "label": "Layanan contoh",
+      "display": "Kontak belum diaktifkan",
+      "href": "https://example.invalid/emergency"
+    },
+    "information": {
+      "label": "Pengelola contoh",
+      "display": "Kontak belum diaktifkan",
+      "href": "https://example.invalid/information"
+    }
+  },
+  "assets": {
+    "favicon": null,
+    "logo": null,
+    "logoAlt": "",
+    "heroImage": null,
+    "serviceAreaShapes": null
+  },
+  "map": {
+    "center": [
+      -2.5,
+      118
+    ],
+    "zoom": 5
+  },
+  "links": {
+    "w2Guide": null
+  }
+}

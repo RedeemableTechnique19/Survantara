@@ -1,0 +1,69 @@
+LISENSI PENGGUNAAN DAN ADAPTASI DENGAN KEWAJIBAN ATRIBUSI
+Versi 1.0 — 5 Oktober 2026
+
+Copyright 2026 Naufal Hilmy Amanur Qolby
+Karya asli: Survantara
+
+1. Pemberian izin
+Pemegang hak cipta memberikan izin non-eksklusif, tanpa royalti, untuk
+menggunakan, menyalin, mempelajari, memodifikasi, mengoperasikan, dan
+mendistribusikan perangkat lunak ini, termasuk untuk pelayanan publik,
+kegiatan organisasi, dan kegiatan komersial, dengan memenuhi ketentuan
+lisensi ini. Pengoperasian melalui jaringan juga diperbolehkan. Pengguna
+tidak diwajibkan mempublikasikan kode sumber modifikasinya.
+
+2. Atribusi pengembang asli
+Setiap aplikasi yang menggunakan atau mengadaptasi kode Survantara wajib
+menampilkan keterangan berikut secara terbaca pada halaman Tentang,
+Kredit, atau halaman setara yang dapat dibuka melalui tautan atau menu
+yang mudah ditemukan di aplikasi:
+
+"Dikembangkan pertama kali oleh Naufal Hilmy Amanur Qolby melalui proyek
+Survantara."
+
+Keterangan tersebut wajib dipertahankan pada versi asli maupun adaptasi,
+termasuk setelah perubahan nama, identitas institusi, pengelola, atau
+hubungan kerja pengembang. Pengelola boleh menambahkan kredit untuk
+kontributor, pengembang adaptasi, dan institusi tanpa menghapus atau
+mengaburkan atribusi pengembang asli. Keterangan ini tidak menyatakan
+bahwa pengembang asli mendukung atau bertanggung jawab atas adaptasi.
+
+3. Salinan dan distribusi
+Salinan kode sumber atau distribusi perangkat lunak wajib menyertakan
+lisensi ini dan pemberitahuan hak cipta di atas. Versi yang dimodifikasi
+wajib menyebutkan bahwa versi tersebut merupakan adaptasi Survantara,
+serta mencantumkan pengelola atau pihak yang melakukan adaptasi pada
+dokumentasi atau halaman Tentang. Ketentuan tambahan untuk modifikasi
+tidak boleh menghilangkan kewajiban lisensi ini atas kode Survantara.
+
+4. Batas cakupan
+Lisensi ini berlaku pada kode dan materi asli Survantara yang disertakan
+di repositori, kecuali dinyatakan lain. Komponen pihak ketiga tetap
+mengikuti lisensinya masing-masing. Lisensi ini tidak memberikan hak
+atas nama, logo, maskot, merek, data pribadi, maupun data operasional
+institusi. Pengelola bertanggung jawab atas konfigurasi, akses, keamanan,
+dan pengolahan data pada instalasinya.
+
+5. Pelanggaran dan penghentian izin
+Jika pemegang hak cipta memberitahukan pelanggaran secara tertulis,
+pengguna diberi waktu 30 hari sejak menerima pemberitahuan untuk
+memperbaikinya. Jika tidak diperbaiki, pemegang hak cipta dapat
+mengakhiri izin ini melalui pemberitahuan tertulis. Penghentian izin
+tidak menghapus kewajiban yang timbul sebelumnya. Pengguna yang telah
+memenuhi lisensi ini tidak kehilangan izin hanya karena hubungan kerja
+atau kerja sama dengan pengembang berakhir.
+
+6. Tanpa jaminan
+Perangkat lunak disediakan sebagaimana adanya tanpa jaminan kesesuaian
+untuk tujuan tertentu, bebas kesalahan, atau ketersediaan layanan.
+Sepanjang diperbolehkan hukum yang berlaku, pemegang hak cipta tidak
+bertanggung jawab atas kerugian akibat penggunaan perangkat lunak.
+Pengelola wajib menilai kelayakan sistem untuk kebutuhan operasionalnya.
+
+7. Penyelesaian perselisihan
+Para pihak mengupayakan penyelesaian melalui musyawarah. Jika tidak
+tercapai kesepakatan, penyelesaian mengikuti hukum Republik Indonesia
+melalui forum yang berwenang berdasarkan hukum yang berlaku.
+
+Lisensi ini adalah lisensi khusus Survantara, bukan lisensi standar MIT,
+Apache, GPL, atau pernyataan persetujuan dari Open Source Initiative.

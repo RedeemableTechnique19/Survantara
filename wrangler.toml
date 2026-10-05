@@ -1,0 +1,23 @@
+name = "survantara"
+main = "src/worker.ts"
+compatibility_date = "2026-07-11"
+
+[assets]
+directory = "public"
+binding = "ASSETS"
+not_found_handling = "single-page-application"
+
+[vars]
+AUTH_ISSUER = "Survantara"
+SBM_ALLOWANCE_AMOUNT = "100000"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "sbm-db"
+# Ganti dengan ID D1 milik instalasi Anda sebelum deploy.
+database_id = "00000000-0000-0000-0000-000000000000"
+migrations_dir = "migrations"
+
+# JWT_SECRET, PATIENT_DATA_KEY, BOOTSTRAP_TOKEN dan
+# SURVEILLANCE_MANAGER_EMAIL diatur melalui wrangler secret put.
+# Token integrasi dan Telegram opsional, lihat README.md.

@@ -1,0 +1,5 @@
+# Contoh lokal saja. Salin menjadi .dev.vars dan ganti setiap nilai.
+JWT_SECRET=replace-with-a-long-random-local-session-secret
+PATIENT_DATA_KEY=replace-with-a-separate-long-random-patient-key
+BOOTSTRAP_TOKEN=replace-with-a-long-random-bootstrap-token
+SURVEILLANCE_MANAGER_EMAIL=admin@example.invalid
