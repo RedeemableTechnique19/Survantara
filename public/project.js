@@ -1,7 +1,8 @@
 // Identitas karya asli; branding institusi diatur terpisah dalam branding.js.
 export const project = Object.freeze({
   name: 'Survantara',
+  repository: 'https://github.com/RedeemableTechnique19/Survantara',
   author: 'Naufal Hilmy Amanur Qolby',
   copyright: 'Copyright 2026 Naufal Hilmy Amanur Qolby',
-  license: 'Lisensi Penggunaan dan Adaptasi dengan Kewajiban Atribusi v1.0',
+  license: 'Lisensi Penggunaan dan Adaptasi dengan Kewajiban Atribusi v1.1',
 });

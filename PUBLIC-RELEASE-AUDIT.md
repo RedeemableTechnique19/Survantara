@@ -4,6 +4,29 @@ Checked on 5 October 2026. Scope: the exact files staged for the first public
 Survantara commit. This is a publication-content audit, not a penetration test
 or a guarantee that the application has no security defects.
 
+## Repository status update — 6 October 2026
+
+The evidence below records the state before the first commit on 5 October
+2026. The repository now has commit
+`7f9500546d31425445fe1165bbedbaf0d83e1547` on `main` and a GitHub remote at
+[RedeemableTechnique19/Survantara](https://github.com/RedeemableTechnique19/Survantara).
+At this status check, local HEAD and GitHub main matched, and the release
+checker passed for 107 tracked files. The GitHub repository is currently
+private. This note preserves the original audit evidence; it does not extend
+that audit to subsequent changes.
+
+Attribution changes prepared on 6 October 2026 introduce license v1.1,
+retain v1.0 in `licenses/LICENSE-v1.0.txt`, and add the official repository
+URL to project metadata. This revision records those attribution changes;
+publication and deployment status can be checked in Git history and the
+hosting provider's deployment history.
+
+Validation of this attribution revision passed the release-content
+checker for 108 files using a temporary Git index, with the actual staging
+area preserved. Branding checks also passed, including both profiles,
+mobile/desktop browser routes, CSP, and no-JavaScript contacts. These are
+content and UI checks, not a renewed security audit or a legal assessment.
+
 ## Evidence
 
 - The staged file contents matched the working files after line-ending

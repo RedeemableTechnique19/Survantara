@@ -1,8 +1,7 @@
 # Survantara
 
 Sistem surveilans, kewaspadaan dini, dan respons kesehatan masyarakat.
-Dikembangkan pertama kali oleh **Naufal Hilmy Amanur Qolby** melalui proyek
-**Survantara**.
+Pemilik proyek: **Naufal Hilmy Amanur Qolby**.
 
 Edisi umum ini menyediakan pelaporan kejadian oleh masyarakat dan kader,
 screening dan verifikasi EBS, tindak lanjut kejadian, kegiatan lapangan,
@@ -83,11 +82,20 @@ dicontohkan di `examples/service-area-shapes.json`. Setiap shape berisi
 aplikasi tetap menampilkan informasi tanpa peta wilayah. `links.w2Guide`
 dapat diisi URL HTTPS panduan milik instalasi; tautan disembunyikan jika null.
 
-Nama karya asli `projectName` tetap Survantara. Identitas pengembang asli
-di `public/project.js`, footer, dan halaman **Tentang · Kredit pengembang**
-dipertahankan pada adaptasi. `npm run branding` juga menyalin `LICENSE`
-menjadi `public/LICENSE.txt`; edit sumber profil dan LICENSE, bukan file
-hasil build. URL GitHub belum ditentukan dan tidak diberi tautan contoh.
+Nama karya asli `projectName` tetap Survantara. Lisensi v1.1 mewajibkan
+halaman Tentang, Kredit, atau halaman setara mencantumkan Survantara sebagai
+proyek asal, Naufal Hilmy Amanur Qolby sebagai pemilik Survantara, dan tautan
+ke [repositori resmi](https://github.com/RedeemableTechnique19/Survantara).
+Redaksi boleh setara dan tampil ringkas, selama tetap terbaca dan mudah
+ditemukan. Atribusi tidak wajib berada di halaman utama atau footer.
+Identitas karya asal dan URL repositori diatur dalam `public/project.js`.
+`npm run branding` juga menyalin `LICENSE` menjadi `public/LICENSE.txt`;
+edit sumber profil dan LICENSE, bukan file hasil build.
+
+Repositori resmi saat ini bersifat privat; akses memerlukan izin GitHub.
+Kredit pemilik Survantara tidak menetapkan kepemilikan seluruh kode tambahan
+pada adaptasi institusi. Pengaturan kepemilikan adaptasi dilakukan terpisah
+oleh pihak yang berwenang.
 
 Adaptasi institusi dapat memakai repositori atau fork tersendiri untuk logo,
 maskot, kontak, dan konfigurasi institusi. Gunakan database dan deployment
@@ -170,6 +178,11 @@ termasuk atribusi yang terlihat pada aplikasi adaptasi. Ini publikasi kode
 yang dapat dipelajari dan diadaptasi (*source available*); lisensi ini belum
 ditinjau penasihat hukum dan tidak diklaim sebagai lisensi yang disetujui
 [Open Source Initiative](https://opensource.org/licenses).
+
+Versi saat ini adalah v1.1, tanggal 6 Oktober 2026. Ketentuan sebelumnya
+disimpan dalam [arsip lisensi v1.0](licenses/LICENSE-v1.0.txt). Salinan yang
+sebelumnya diterima berdasarkan v1.0 tetap mengikuti ketentuan v1.0;
+perubahan v1.1 tidak berlaku surut terhadap salinan tersebut.
 
 Komponen dan sumber pihak ketiga dijelaskan dalam [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).
 Katalog surveilans tidak menyatakan dukungan atau pengesahan aplikasi oleh

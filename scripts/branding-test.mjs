@@ -21,7 +21,7 @@ try {
     const html = await readFile(join(directory, 'index.html'), 'utf8');
     const css = await readFile(join(directory, 'branding.css'), 'utf8');
     assert.ok(html.includes(`<title>${profile.displayName}</title>`));
-    assert.match(html, /Pengembang asli: Naufal Hilmy Amanur Qolby/);
+    assert.match(html, /Pemilik Survantara: Naufal Hilmy Amanur Qolby/);
     assert.match(html, /href="#about"/);
     assert.doesNotMatch(html, /\{\{\w+\}\}/, 'Unresolved shell placeholders');
     if (name === 'umum') {

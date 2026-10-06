@@ -1,5 +1,5 @@
 LISENSI PENGGUNAAN DAN ADAPTASI DENGAN KEWAJIBAN ATRIBUSI
-Versi 1.0 — 5 Oktober 2026
+Versi 1.1 — 6 Oktober 2026
 
 Copyright 2026 Naufal Hilmy Amanur Qolby
 Karya asli: Survantara
@@ -12,28 +12,41 @@ kegiatan organisasi, dan kegiatan komersial, dengan memenuhi ketentuan
 lisensi ini. Pengoperasian melalui jaringan juga diperbolehkan. Pengguna
 tidak diwajibkan mempublikasikan kode sumber modifikasinya.
 
-2. Atribusi pengembang asli
+2. Atribusi karya asal
 Setiap aplikasi yang menggunakan atau mengadaptasi kode Survantara wajib
-menampilkan keterangan berikut secara terbaca pada halaman Tentang,
+menampilkan tiga unsur berikut secara terbaca pada halaman Tentang,
 Kredit, atau halaman setara yang dapat dibuka melalui tautan atau menu
 yang mudah ditemukan di aplikasi:
 
-"Dikembangkan pertama kali oleh Naufal Hilmy Amanur Qolby melalui proyek
-Survantara."
+a. Survantara sebagai proyek asal; versi yang dimodifikasi menyatakan
+   bahwa aplikasi tersebut merupakan adaptasi Survantara.
+b. Naufal Hilmy Amanur Qolby sebagai pemilik Survantara.
+c. Tautan yang dapat diklik ke repositori resmi:
+   https://github.com/RedeemableTechnique19/Survantara
 
-Keterangan tersebut wajib dipertahankan pada versi asli maupun adaptasi,
+Contoh keterangan untuk adaptasi:
+"Diadaptasi dari Survantara. Pemilik Survantara: Naufal Hilmy Amanur Qolby."
+Nama Survantara dapat sekaligus menjadi tautan ke repositori resmi.
+
+Redaksi yang setara diperbolehkan dan tidak harus mengikuti contoh secara
+persis. Unsur atribusi boleh disusun dalam beberapa baris atau paragraf.
+Teks boleh berukuran lebih kecil dan menggunakan warna yang lebih lembut
+daripada isi utama, selama tetap terbaca. Atribusi tidak boleh disembunyikan.
+Penempatan atribusi pada halaman utama atau footer tidak diwajibkan.
+
+Ketiga unsur tersebut wajib dipertahankan pada versi asli maupun adaptasi,
 termasuk setelah perubahan nama, identitas institusi, pengelola, atau
 hubungan kerja pengembang. Pengelola boleh menambahkan kredit untuk
 kontributor, pengembang adaptasi, dan institusi tanpa menghapus atau
-mengaburkan atribusi pengembang asli. Keterangan ini tidak menyatakan
+mengaburkan atribusi karya asal. Keterangan ini tidak menyatakan
 bahwa pengembang asli mendukung atau bertanggung jawab atas adaptasi.
 
 3. Salinan dan distribusi
 Salinan kode sumber atau distribusi perangkat lunak wajib menyertakan
 lisensi ini dan pemberitahuan hak cipta di atas. Versi yang dimodifikasi
 wajib menyebutkan bahwa versi tersebut merupakan adaptasi Survantara,
-serta mencantumkan pengelola atau pihak yang melakukan adaptasi pada
-dokumentasi atau halaman Tentang. Ketentuan tambahan untuk modifikasi
+serta mencantumkan instansi pengguna, pengelola, atau pihak yang melakukan
+adaptasi pada dokumentasi atau halaman Tentang. Ketentuan tambahan untuk modifikasi
 tidak boleh menghilangkan kewajiban lisensi ini atas kode Survantara.
 
 4. Batas cakupan
@@ -67,3 +80,11 @@ melalui forum yang berwenang berdasarkan hukum yang berlaku.
 
 Lisensi ini adalah lisensi khusus Survantara, bukan lisensi standar MIT,
 Apache, GPL, atau pernyataan persetujuan dari Open Source Initiative.
+
+Riwayat versi
+Versi 1.1 memperjelas atribusi karya asal, menambahkan kewajiban tautan
+repositori resmi, dan memperbolehkan redaksi yang setara serta penempatan
+yang ringkas. Versi ini berlaku pada salinan yang disertai lisensi v1.1.
+Salinan yang sebelumnya diterima berdasarkan v1.0 tetap mengikuti v1.0;
+perubahan ini tidak berlaku surut terhadap salinan tersebut. Salinan
+ketentuan v1.0 disimpan di licenses/LICENSE-v1.0.txt.

@@ -75,7 +75,7 @@ export async function buildBranding(profileName = 'umum', outputDir = join(root,
     noscriptContacts: emergency
       ? `<p><strong>Gawat darurat?</strong> Hubungi ${escapeHtml(emergency.label)} ${escapeHtml(profile.institution)}: ${link(emergency, emergency.display)}.${information ? ` Informasi umum: ${link(information, information.display)}.` : ''}</p>`
       : '<p><strong>Gawat darurat?</strong> Hubungi layanan darurat setempat atau datangi fasilitas kesehatan terdekat.</p>',
-    developerCredit: escapeHtml(`Pengembang asli: ${project.author} · ${project.name}`),
+    developerCredit: escapeHtml(`Pemilik ${project.name}: ${project.author}`),
     brandingVersion: version,
   };
   const html = template.replace(/\{\{(\w+)\}\}/g, (_, key) => {

@@ -4905,7 +4905,7 @@ async function adminEntry(renderEntry) {
 let cadreRefreshController;
 
 function aboutPage() {
-  app.innerHTML = `<section class="card"><p class="eyebrow">Tentang aplikasi</p><h1>${esc(branding.displayName)}</h1><p>${esc(branding.description)}</p><h2>Pengembang asli</h2><p>Dikembangkan pertama kali oleh <strong>${esc(project.author)}</strong> melalui proyek <strong>${esc(project.name)}</strong>.</p><p>${esc(project.copyright)}</p><h2>Pengelola instalasi</h2><p>${esc(branding.institution)}</p>${branding.displayName !== project.name ? `<p>Instalasi ini merupakan adaptasi ${esc(project.name)}.</p>` : ''}<h2>Lisensi</h2><p>${esc(project.license)}. Penggunaan dan adaptasi diperbolehkan dengan kewajiban mempertahankan atribusi.</p><p><a href="/LICENSE.txt" target="_blank" rel="noopener">Baca ketentuan lisensi lengkap</a></p><a class="back-link" href="#home">← Kembali ke beranda</a></section>`;
+  app.innerHTML = `<section class="card"><p class="eyebrow">Tentang aplikasi</p><h1>${esc(branding.displayName)}</h1><p>${esc(branding.description)}</p><h2>Proyek asal</h2><p><a href="${esc(project.repository)}" target="_blank" rel="noopener">${esc(project.name)} <span aria-hidden="true">↗</span></a></p><p class="muted">Pemilik ${esc(project.name)}: ${esc(project.author)}.</p><h2>Pengelola instalasi</h2><p>${esc(branding.institution)}</p>${branding.displayName !== project.name ? `<p>Instalasi ini merupakan adaptasi ${esc(project.name)}.</p>` : ''}<h2>Lisensi</h2><p>${esc(project.license)}. Penggunaan dan adaptasi diperbolehkan dengan kewajiban mempertahankan atribusi.</p><p><a href="/LICENSE.txt" target="_blank" rel="noopener">Baca ketentuan lisensi lengkap</a></p><a class="back-link" href="#home">← Kembali ke beranda</a></section>`;
 }
 
 function render() {
